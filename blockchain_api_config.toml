@@ -1,0 +1,47 @@
+[blockchain_api]
+    root = "https://blockchain.info/"
+
+[single_block]
+    root = "https://blockchain.info/rawblock/"
+
+[single_transaction]
+    root = "https://blockchain.info/rawtx/"
+
+[chart_data]
+    root = "https://blockchain.info/charts/"
+    format = "?format="
+
+[block_height]
+    root= "https://blockchain.info/block-height/"
+    format = "?format="
+
+[single_address]
+    root = "https://blockchain.info/rawaddr/"
+    limit = "&limit="
+    offset = "&offset="
+
+[multi_address]
+    root = "https://blockchain.info/multiaddr?active="
+    delimiter = "|"
+    limit = "&n=50"
+    offset = "&offset="
+
+[unspent_outputs]
+    root = "https://blockchain.info/unspent?active="
+    delimiter = "|"
+    limit = "&limit="
+    confirmations = "&confirmations="
+
+[balance]
+    root = "https://blockchain.info/balance?active="
+    delimiter = "|"
+
+[latest_block]
+    root = "https://blockchain.info/latestblock"
+
+[unconfirmed_transactions]
+    root = "https://blockchain.info/unconfirmed-transactions?format=json"
+
+[blocks]
+    root = "https://blockchain.info/blocks/"
+    format = "?format=json"
